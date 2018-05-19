@@ -16,8 +16,8 @@ window.onload= function() {
 	var placeholder = document.getElementById('myMedicareIPViz');
 	var vizURL = 'https://public.tableau.com/views/MedicareChargeProject_0/IPChargeDashboardD3Pair';
 	var options = {
-		width: '1200px',	//Original '1050px'
-		height: '720px',	//Original '1000px'
+		width: '1200px',
+		height: '700px',
 		hideToolbar: true,
 		hideTabs: true,
 	
@@ -259,8 +259,8 @@ function resetTextFilterTo(vizName, sheetName, filterName) {
 let Draw_D3_Sunburst = function(nodeData, strDisplayName){
 	
   // Define the dimensions of the visualization.
-  var width = 660,		//480
-      height = 660,		//480
+  var width = 600,
+      height = 600,
       radius = (Math.min(width, height) / 2);
 
   /* Define the scales that will translate data values into visualization 
