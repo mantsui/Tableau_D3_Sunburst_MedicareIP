@@ -16,7 +16,7 @@ window.onload= function() {
 	var placeholder = document.getElementById('myMedicareIPViz');
 	var vizURL = 'https://public.tableau.com/views/MedicareChargeProject_0/IPChargeDashboardD3Pair';
 	var options = {
-		width: '650px', //1100px
+		width: '750px', //1100px
 		height: '680px',//650px
 		hideToolbar: true,
 		hideTabs: true,
