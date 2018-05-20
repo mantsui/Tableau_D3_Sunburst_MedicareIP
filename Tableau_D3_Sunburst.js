@@ -369,8 +369,6 @@ let Draw_D3_Sunburst = function(nodeData, strDisplayName){
 		return Tooltip;
   }   
   
-  //d3.select(self.frameElement).style("height", height + "px");
-
 }
 
 
