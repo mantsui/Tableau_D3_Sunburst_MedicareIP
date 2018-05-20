@@ -7,12 +7,12 @@ html, body {
 }
 
 path {
-	stroke:rgb(255, 255, 255);
-	stroke-width: 3.5px;
+  stroke:rgb(255, 255, 255);
+  stroke-width: 3.5px;
 }
 
 body {
-    background-color: rgb(230,230,230);
+  background-color: rgb(230,230,230);
 }
 
 .flex-container {
@@ -20,9 +20,9 @@ body {
 }
 
 h2 {
-    color: #55007f;
-    font-family: verdana;
-    font-size: 100%;
+  color: #55007f;
+  font-family: verdana;
+  font-size: 100%;
 }
 
 .node {
